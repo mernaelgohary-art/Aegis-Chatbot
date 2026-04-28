@@ -44,7 +44,10 @@ myst_enable_extensions = [
 # This gives you the clean, professional sidebar look
 html_theme = 'sphinx_rtd_theme'
 html_title = "Aegis Technical Reference"
-html_static_path = ['_static']
+
+# Note: Ensure you have a folder named '_static' inside your 'docs' folder 
+# or comment the line below out if it's empty.
+# html_static_path = ['_static']
 
 # This removes the "Created using Sphinx" text at the bottom for a cleaner look
 html_show_sphinx = False
